@@ -4,5 +4,6 @@ applications:
   memory: 64M
   disk_quota: 256M
   instances: 2
-  buildpacks: python_buildpack
+  buildpacks: 
+  - python_buildpack
   command: python hello.py
